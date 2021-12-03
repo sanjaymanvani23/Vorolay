@@ -1,1 +1,1 @@
-include ':app', ':vorolay'
+include ':entry', ':vorolay'

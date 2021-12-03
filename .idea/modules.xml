@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/vorolay/vorolay.iml" filepath="$PROJECT_DIR$/vorolay/vorolay.iml" />
-      <module fileurl="file://$PROJECT_DIR$/voronoi_test_android.iml" filepath="$PROJECT_DIR$/voronoi_test_android.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Vorolay.iml" filepath="$PROJECT_DIR$/.idea/Vorolay.iml" group="Vorolay" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/entry/entry.iml" filepath="$PROJECT_DIR$/.idea/modules/entry/entry.iml" group="Vorolay/entry" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/vorolay/vorolay.iml" filepath="$PROJECT_DIR$/.idea/modules/vorolay/vorolay.iml" group="Vorolay/vorolay" />
     </modules>
   </component>
 </project>
