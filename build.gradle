@@ -9,7 +9,7 @@ ohos {
         compatibleSdkVersion 4
     }
 }
-	
+
 buildscript {
     repositories {
         maven {
@@ -18,11 +18,11 @@ buildscript {
         maven {
             url 'https://developer.huawei.com/repo/'
         }
-		jcenter()
+        jcenter()
     }
     dependencies {
-        classpath 'com.huawei.ohos:hap:2.4.4.2'
-        classpath 'com.huawei.ohos:decctest:1.2.4.0'
+        classpath 'com.huawei.ohos:hap:3.0.3.4'
+        classpath 'com.huawei.ohos:decctest:1.2.6.0'
         classpath "org.sonarsource.scanner.gradle:sonarqube-gradle-plugin:3.3"
     }
 }
@@ -38,7 +38,7 @@ allprojects {
         maven {
             url 'https://mirrors.huaweicloud.com/repository/maven/'
         }
-		jcenter()
+        jcenter()
     }
 
     task checkstyle(type: Checkstyle) {
@@ -67,8 +67,8 @@ sonarqube {
         property "sonar.projectKey", "applibgroup_Vorolay"
         property "sonar.organization", "applibgroup"
         property "sonar.host.url", "https://sonarcloud.io"
-        property "sonar.sources", "entry,diy_view"
-        property "sonar.java.binaries", "entry/build,diy_view/build"
+        property "sonar.sources", "entry,vorolay"
+        property "sonar.java.binaries", "entry/build,vorolay/build"
         property "sonar.java.checkstyle.reportPaths", "build/reports/checkstyle/checkstyle.xml"
     }
 }
