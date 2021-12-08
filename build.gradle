@@ -52,10 +52,7 @@ allprojects {
         // empty classpath
         classpath = files()
     }
-
-
 }
-
 
 checkstyle {
     toolVersion "8.43"
